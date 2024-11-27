@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skill {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skill.left {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+
+.skill.right {
+  float: right;
+  width: 45%;
+}
+
+.skill h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.skill p {
+  color: #666;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
